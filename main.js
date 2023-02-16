@@ -1,5 +1,6 @@
 
 const line1 = document.querySelectorAll(".lineimg")
+console.log(line1.length)
 Array.prototype.map.call(line1,(key,index) =>{
     
     key.onmousedown = e => handleOnDown(e);
@@ -50,4 +51,7 @@ Array.prototype.map.call(line1,(key,index) =>{
 })
 
 
-/* -- Had to add extra lines for touch events -- */
+/* -- tạo footer -- */
+
+const footer = document.querySelector(".footer")
+footer.style.transform = `translateY(${line1.length*110}%)`

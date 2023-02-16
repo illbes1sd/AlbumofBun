@@ -2,38 +2,16 @@
     --percentPerRow: 56;
 }
 
-
 body {
    
     width: 100vw;
     background-color: black;
     margin: 0rem;
     font-family: 'Dancing Script', cursive;
-    overflow-X: hidden;
+    overflow-x: hidden;
   }
   
-/* block 1 */
-
-  #image-track {
-    display: flex;
-    gap: 4vmin;
-    position: absolute;
-    left: 15%;
-    top: 50%;
-    transform: translate(0%, -50%);  /* phải tăng caculte mỗi row thêm vào 106% */
-    user-select: none; /* -- Prevent image highlighting -- */
-  }
-  
-  #image-track > .image {
-    width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: 100% center;
-  }
-
-  /* end block 1 */
-
-  .header {
+.header {
     color: white;
     width: 100vw;
     height: 21vh;
@@ -44,8 +22,34 @@ body {
     font-size: 9vh;
   }
 
+.footer {
+  background-color: black;
+  height: 56vmin;
+}
+/* block 1 */
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(0%, -50%);  /* phải tăng caculte mỗi row thêm vào 106% */
+    user-select: none; /* -- Prevent image highlighting -- */
+}
+  
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+
+  /* end block 1 */
+
+
 /* block 2 */
-  #image-track2 {
+#image-track2 {
     display: flex;
     gap: 4vmin;
     position: absolute;
@@ -53,14 +57,14 @@ body {
     top: 50%;
     transform: translate(0%, 60%);
     user-select: none; /* -- Prevent image highlighting -- */
-  }
+}
   
-  #image-track2 > .image {
+#image-track2 > .image {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
     object-position: 100% center;
-  }
+}
 
 /* end block 2 */
 
@@ -73,13 +77,13 @@ body {
     top: 50%;
     transform: translate(0%, 170%);
     user-select: none; /* -- Prevent image highlighting -- */
-  }
+}
   
-  #image-track3 > .image {
+#image-track3 > .image {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
     object-position: 100% center;
-  }
+}
 
 /* end block 3 */

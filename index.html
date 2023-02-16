@@ -36,46 +36,51 @@
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <div class="header" draggable="false">Album of Bun</div>
-    <div
-      id="image-track"
-      data-mouse-down-at="0"
-      data-prev-percentage="0"
-      data-per-row="-50%"
-      class="lineimg"
-    >
-      <img src="asset/picture/photo-1.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-2.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-3.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-4.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-5.jpg" class="image" draggable="false" />
+    <div class="container">
+      <div class="header" draggable="false">Album of Bun</div>
+      <div
+        id="image-track"
+        data-mouse-down-at="0"
+        data-prev-percentage="0"
+        data-per-row="-50%"
+        class="lineimg"
+      >
+        <img src="asset/picture/photo-1.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-2.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-3.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-4.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-5.jpg" class="image" draggable="false" />
+      </div>
+
+      <div
+        id="image-track2"
+        data-mouse-down-at="0"
+        data-prev-percentage="0"
+        class="lineimg"
+      >
+        <!-- các row tiếp theo + 106% MAX-->
+        <img src="asset/picture/photo-6.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-7.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-8.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-9.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-10.jpg" class="image" draggable="false" />
+      </div>
+
+      <div
+        id="image-track3"
+        data-mouse-down-at="0"
+        data-prev-percentage="0"
+        class="lineimg"
+      >
+        <!-- các row tiếp theo + 106% -->
+        <img src="asset/picture/photo-11.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-12.jpg" class="image" draggable="false" />
+        <img src="asset/picture/photo-13.jpg" class="image" draggable="false" />
+      </div>
     </div>
 
-    <div
-      id="image-track2"
-      data-mouse-down-at="0"
-      data-prev-percentage="0"
-      class="lineimg"
-    >
-      <!-- các row tiếp theo + 106% MAX-->
-      <img src="asset/picture/photo-6.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-7.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-8.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-9.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-10.jpg" class="image" draggable="false" />
-    </div>
-
-    <div
-      id="image-track3"
-      data-mouse-down-at="0"
-      data-prev-percentage="0"
-      class="lineimg"
-    >
-      <!-- các row tiếp theo + 106% -->
-      <img src="asset/picture/photo-11.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-12.jpg" class="image" draggable="false" />
-      <img src="asset/picture/photo-13.jpg" class="image" draggable="false" />
-    </div>
+    <!--  tạo khoảng trống dưới -->
+    <div class="footer"></div>
     <script src="main.js"></script>
   </body>
 </html>
