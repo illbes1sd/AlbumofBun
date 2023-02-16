@@ -1,0 +1,85 @@
+:root {
+    --percentPerRow: 56;
+}
+
+
+body {
+   
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    font-family: 'Dancing Script', cursive;
+    overflow-X: hidden;
+  }
+  
+/* block 1 */
+
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(0%, -50%);  /* phải tăng caculte mỗi row thêm vào 106% */
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+
+  /* end block 1 */
+
+  .header {
+    color: white;
+    width: 100vw;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-size: 9vh;
+  }
+
+/* block 2 */
+  #image-track2 {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(0%, 60%);
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track2 > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+
+/* end block 2 */
+
+/* block 3 */
+#image-track3 {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(0%, 170%);
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track3 > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+
+/* end block 3 */
